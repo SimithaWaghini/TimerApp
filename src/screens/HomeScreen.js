@@ -161,7 +161,7 @@ const HomeScreen = () => {
           )}
         />
       </View>
-      
+
       <View style={styles.buttoncontainer}>
         <TouchableOpacity style={styles.button} onPress={addTimer}>
           <Text style={styles.buttontext}>Add Timer</Text>
@@ -195,7 +195,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-
   },
   header: {
     backgroundColor: '#4ba67a',
