@@ -161,6 +161,7 @@ const HomeScreen = () => {
           )}
         />
       </View>
+      
       <View style={styles.buttoncontainer}>
         <TouchableOpacity style={styles.button} onPress={addTimer}>
           <Text style={styles.buttontext}>Add Timer</Text>
