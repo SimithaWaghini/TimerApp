@@ -8,7 +8,6 @@ const HistoryScreen = () => {
   const [history, setHistory] = useState([]);
   const [nohistory, setNoHistory] = useState(false);
   const navigation = useNavigation();
-
   useEffect(() => {
     const loadHistory = async () => {
       const storedHistory = await AsyncStorage.getItem('timerHistory');
